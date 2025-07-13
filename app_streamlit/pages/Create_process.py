@@ -16,7 +16,7 @@ if uploaded_rules_file:
     rules_content = uploaded_rules_file.read().decode("utf-8")
     
     # Define the path where rules.txt is expected by the pydantic script
-    rules_path = "/Users/edenlumbroso/personal_projects/Ovdimnet/src/pydantic/rules.txt"
+    rules_path = os.path.join(os.getcwd(), "src", "pydantic", "rules.txt")
 
     try:
         with open(rules_path, "w") as f:
