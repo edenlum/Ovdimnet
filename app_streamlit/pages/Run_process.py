@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import tempfile
 import json
-from app_streamlit.backend.main import run_process
+from backend.main import run_process
 
 st.set_page_config(layout="centered", page_title="Ovdimnet File Processor")
 st.title("Ovdimnet File Processor")
