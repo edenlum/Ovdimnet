@@ -1,0 +1,3004 @@
+{
+  "wt_et_cols_defs": [
+    {
+      "sid": 491000,
+      "pcol_number": 0,
+      "pcol_name": "AUTOABS",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 1,
+      "pcol_name": "רגילות",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 2,
+      "pcol_name": "חופשה",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": true,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 3,
+      "pcol_name": "מחלה",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": false,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 4,
+      "pcol_name": "מילואים",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 5,
+      "pcol_name": "100%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 6,
+      "pcol_name": "125%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": true,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 7,
+      "pcol_name": "150%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": true,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 8,
+      "pcol_name": "ימי עבודה",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": false,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 9,
+      "pcol_name": "ימים לב.ל",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": false,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 10,
+      "pcol_name": "ימי נסיעה",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": false,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 11,
+      "pcol_name": "מחלה יום ראשון",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 12,
+      "pcol_name": "מחלה יום שני-שלישי",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 13,
+      "pcol_name": "מחלה יום רביעי ואילך",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 14,
+      "pcol_name": "תוספת שבת/חג 50%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 15,
+      "pcol_name": "קיזוז חוסר",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 16,
+      "pcol_name": "לא לתשלום",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 17,
+      "pcol_name": "סיכום שבועי",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 18,
+      "pcol_name": "תשלום/עדכון חג",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": true,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 19,
+      "pcol_name": "יום בחירות",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": true,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 20,
+      "pcol_name": "הפסקה",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": true,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 21,
+      "pcol_name": "תוספת שבתון 100%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 22,
+      "pcol_name": "תוספת חג 60%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 23,
+      "pcol_name": "ש.מנוחה 150%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 24,
+      "pcol_name": "אבל",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 25,
+      "pcol_name": "בדיקות הריון",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": true,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 26,
+      "pcol_name": "חישוב עזר לילה",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 27,
+      "pcol_name": "175%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": true,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 28,
+      "pcol_name": "200%",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": true,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 29,
+      "pcol_name": "סיכום שבועי בשבת",
+      "pcol_units": 1,
+      "relevant_in_days": false,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 30,
+      "pcol_name": "דיווחים טרם אישור",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": "",
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": "",
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 31,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 32,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 33,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 34,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 35,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 36,
+      "pcol_name": "שעות בפועל תמחירי",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 37,
+      "pcol_name": "שעות מנורמלות תמחירי",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 38,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 39,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 40,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 41,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 42,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 43,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 44,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 45,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 46,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 47,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 48,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 49,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 50,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 51,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 52,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 53,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 54,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 55,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 56,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 57,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 58,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 59,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 60,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 61,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 62,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 63,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 64,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 65,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 66,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 67,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 68,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 69,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 70,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 71,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 72,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 73,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 74,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 75,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 76,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 77,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 78,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 79,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 80,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 81,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 82,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 83,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 84,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 85,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 86,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 87,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 88,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 89,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 90,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 91,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 92,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 93,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 94,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 95,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 96,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 97,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 98,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    },
+    {
+      "sid": 491000,
+      "pcol_number": 99,
+      "pcol_name": "",
+      "pcol_units": 1,
+      "relevant_in_days": true,
+      "relevant_in_hours": true,
+      "manual_feed_daily_utype_list": [
+        
+      ],
+      "manual_feed_pp_utype_list": [
+        
+      ],
+      "manual_feed_daily_report_dependance": true,
+      "daily_report_display_only": false,
+      "is_break_pcol": false,
+      "mf_report_display_only": false,
+      "display_as_units": false,
+      "for_calculate3monthstd": false,
+      "overtime": false,
+      "cont_vacation": false,
+      "show_in_client_actuals": false,
+      "external_pcol": "",
+      "vacation_quota": null,
+      "payroll_pcol": null,
+      "std_by_dow_dt": false,
+      "is_break_return_pcol": false,
+      "pcol_description": null,
+      "sickness_quota": null
+    }
+  ]
+}

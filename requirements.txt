@@ -1,0 +1,4 @@
+flask
+pydantic-ai
+python-dotenv
+streamlit

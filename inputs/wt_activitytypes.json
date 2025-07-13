@@ -1,0 +1,52 @@
+{
+  "wt_activitytypes": [
+    {
+      "sid": 491000,
+      "atype": 0,
+      "atname": "",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 1,
+      "atname": "כללי",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 92,
+      "atname": "כמויות",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 93,
+      "atname": "GAP HOURS",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 95,
+      "atname": "ללא ניתוח",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 98,
+      "atname": "מחוץ למשרד",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 99,
+      "atname": "היעדרות",
+      "at_alias": null
+    },
+    {
+      "sid": 491000,
+      "atype": 155,
+      "atname": "CS",
+      "at_alias": null
+    }
+  ]
+}

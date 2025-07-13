@@ -1,0 +1,157 @@
+{
+  "wt_day_types": [
+    {
+      "sid": 491000,
+      "day_type_id": 1,
+      "day_type_color": "#FFFFFF",
+      "day_type_name": "יום חול",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 2,
+      "day_type_color": "#d3d3d3",
+      "day_type_name": "יום לפני מנוחה",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 3,
+      "day_type_color": "#FFFFE0",
+      "day_type_name": "ערב חג",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 4,
+      "day_type_color": "#F5DEB3",
+      "day_type_name": "חג",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 5,
+      "day_type_color": "#d3d3d3",
+      "day_type_name": "שבת לפני מנוחה",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 6,
+      "day_type_color": "#f5deb3",
+      "day_type_name": "יום מנוחה בשישבת",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 7,
+      "day_type_color": "#f5deb3",
+      "day_type_name": "יום מנוחה א",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 8,
+      "day_type_color": "#F5DEB3",
+      "day_type_name": "יום העצמאות",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 9,
+      "day_type_color": "#FFC0CB",
+      "day_type_name": "יום בחירות",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 10,
+      "day_type_color": "#00FF00",
+      "day_type_name": "יום אופציונלי",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 11,
+      "day_type_color": "#ffffff",
+      "day_type_name": "שישי חול",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 12,
+      "day_type_color": "#ffffff",
+      "day_type_name": "שבת חול",
+      "for_planit": false,
+      "for_budget": true,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 20,
+      "day_type_color": "#ffffff",
+      "day_type_name": "א",
+      "for_planit": false,
+      "for_budget": false,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 21,
+      "day_type_color": "#ffffff",
+      "day_type_name": "ב",
+      "for_planit": false,
+      "for_budget": false,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 22,
+      "day_type_color": "#ffffff",
+      "day_type_name": "ג",
+      "for_planit": false,
+      "for_budget": false,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 23,
+      "day_type_color": "#ffffff",
+      "day_type_name": "ד",
+      "for_planit": false,
+      "for_budget": false,
+      "shifts_templates_special_days": false
+    },
+    {
+      "sid": 491000,
+      "day_type_id": 24,
+      "day_type_color": "#ffffff",
+      "day_type_name": "ה",
+      "for_planit": false,
+      "for_budget": false,
+      "shifts_templates_special_days": false
+    }
+  ]
+}

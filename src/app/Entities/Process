@@ -1,0 +1,77 @@
+{
+  "name": "Process",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the automated process"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of what the process does"
+    },
+    "input_file_type": {
+      "type": "string",
+      "enum": [
+        "csv",
+        "txt",
+        "json"
+      ],
+      "description": "Expected input file format"
+    },
+    "output_file_type": {
+      "type": "string",
+      "enum": [
+        "csv",
+        "txt",
+        "json"
+      ],
+      "description": "Generated output file format"
+    },
+    "training_files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Files that describe how to perform the process"
+    },
+    "example_input_url": {
+      "type": "string",
+      "description": "URL of example input file"
+    },
+    "example_output_url": {
+      "type": "string",
+      "description": "URL of example output file"
+    },
+    "rules": {
+      "type": "string",
+      "description": "AI-generated rules for executing the process"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "training",
+        "ready",
+        "error"
+      ],
+      "default": "draft",
+      "description": "Current status of the process"
+    }
+  },
+  "required": [
+    "name",
+    "description"
+  ]
+}

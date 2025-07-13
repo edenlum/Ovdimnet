@@ -1,0 +1,84 @@
+from pydantic_ai import Agent
+from dotenv import load_dotenv
+import argparse
+import json
+import os
+
+from src.pydantic.config_classes import Configs
+
+load_dotenv()
+
+
+def get_prompt(csv_content, rules_content, jsons):
+        # Construct the prompt
+    prompt = f"""
+    Based on the following rules:
+
+    {rules_content}
+
+    the following CSV data:
+
+    {csv_content}
+
+    and the following JSON data:
+
+    {jsons}
+
+    Generate the corresponding JSON configurations for the system tables.
+    The output should be a valid JSON object containing the configurations for the following tables:
+    - wt_employeetypes
+    - wt_et_cols_display
+    - wt_et_dt
+    - wt_et_pcols
+    """
+
+    return prompt
+
+def system_prompt():
+    return """
+    You are an expert Data Transformation and System Configuration Agent.
+
+    Your primary mission is to accurately translate customer-specific work agreement rules, provided in a Hebrew CSV file, into a series of structured JSON configuration files for the Ovdimnet time management system. You must act with precision, ensuring perfect data integrity and adherence to the target JSON schema.
+
+    """
+
+
+def generate(csv_content, rules_content, jsons):
+    prompt = get_prompt(csv_content, rules_content, jsons)
+
+    agent = Agent(
+        'google-gla:gemini-2.5-flash',
+        system_prompt=system_prompt(),  
+        output_type=Configs,
+    )
+
+    result = agent.run_sync(prompt)  
+
+    return result.output
+
+def save_configs(configs, path):
+    with open(path, "w") as f:
+        json.dump(configs.model_dump(), f, indent=4)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate system table configurations from a CSV file.")
+    parser.add_argument("--csv-file", required=True, help="The path to the CSV file containing customer requirements.")
+    parser.add_argument("--rules-file", required=True, help="The path to the rules.txt file.")
+    parser.add_argument("--inputs-dir", required=True, help="The path to the directory containing input JSON files.")
+    parser.add_argument("--output-file", required=True, help="The path to save the output JSON file.")
+    args = parser.parse_args()
+
+    with open(args.rules_file, "r") as f:
+        rules_content = f.read()
+
+    with open(args.csv_file, "r") as f:
+        csv_content = f.read()
+
+    jsons = {}
+    for file_name in os.listdir(args.inputs_dir):
+        if file_name.endswith(".json"):
+            with open(os.path.join(args.inputs_dir, file_name), "r") as f:
+                jsons[file_name] = json.load(f)
+
+    configs = generate(csv_content, rules_content, jsons)
+    save_configs(configs, args.output_file)

@@ -1,0 +1,52 @@
+
+This document outlines the rules for transforming the CSV customer requirements into the JSON system table configurations.
+
+**General Rules:**
+
+*   The "סוג הסכם" (Agreement Type) from the CSV, which is 501, will be used as the `etype` and `sid` in all relevant JSON files.
+*   The "שם הסכם" (Agreement Name) from the CSV will be used as the `etname` in `wt_employeetypes.json`.
+
+**File-Specific Rules:**
+
+**1. `wt_employeetypes.json`**
+
+*   `sid`: From the "סוג הסכם" in the CSV.
+*   `etype`: From the "סוג הסכם" in the CSV.
+*   `etname`: From the "שם הסכם" in the CSV.
+*   `workday_start_time`: Default to "08:00:00" unless specified otherwise in the CSV.
+*   `hours_to_days_rate`: Set to 28800 (8 hours) by default.
+
+**2. `wt_activities.json` & `wt_activitytypes.json`**
+
+*   These files seem to contain standard definitions for activities and their types.
+*   The rules should check if the activities mentioned in the CSV (e.g., "חופשה", "מחלה") exist in `wt_activities.json` and `wt_activitytypes.json`.
+*   If an activity from the CSV does not exist, a new entry should be created in both `wt_activities.json` and `wt_activitytypes.json`.
+*   For a new activity, a new `atype` will be generated and mapped in `wt_activitytypes.json`. This new `atype` will then be used in `wt_activities.json`.
+
+**3. `wt_day_types.json`**
+
+*   This file defines different day types (e.g., regular day, holiday).
+*   The rules should map the days of the week and holidays from the CSV to the `day_type_id` in this file. For example, Sunday to Thursday are regular workdays (`day_type_id: 1`), Friday is the day before rest (`day_type_id: 2`), and Saturday is a rest day (`day_type_id: 6 or 7`).
+
+**4. `wt_et_cols_defs.json` & `wt_et_cols_display.json`**
+
+*   These files define the columns for the employee type.
+*   For each type of payment or deduction in the CSV (e.g., "רגילות", "חופשה", "125%"), a corresponding column should be defined in `wt_et_cols_defs.json`.
+*   The `pcol_number` will be assigned sequentially.
+*   `wt_et_cols_display.json` controls the visibility of these columns. The rules should set `show_as_col` to `true` for columns that need to be displayed.
+
+**5. `wt_et_dt.json`**
+
+*   This file defines the standard work hours and breaks for each day type.
+*   The `std_absence` is set based on the "אורך יום עבודה" from the CSV (defaulting to 28800 seconds, which is 8 hours).
+*   The break rules are also defined here, based on the break-related columns in the CSV.
+
+**6. `wt_et_pcols.json`**
+
+*   This is the most complex mapping, defining the logic for calculating payment columns.
+*   For each payment type in the CSV (e.g., "125%", "150%"), a rule is created here.
+*   **Overtime:** Rules for 125% and 150% overtime are created based on the daily and weekly work hour limits. For example, after 8 hours a day, overtime at 125% starts.
+*   **Night Work:** If "האם יש עבודת לילה?" is "כן" (Yes), a rule is created to provide a premium for hours worked after the time specified in "מאיזה שעה מתחילה עבודת הלילה?".
+*   **Holidays/Weekends:** Special rules are created for work on holidays and weekends, with different payment rates (e.g., 150%, 175%, 200%).
+*   **Absences:** Rules for paid absences (vacation, sick leave, etc.) are created to pay the employee for the day based on their standard daily hours.
+*   **Breaks:** If "האם יש הפסקה ?" is "כן" (Yes) and "האם ההפסקה בתשלום ?" is "לא" (No), a rule is created to deduct the break time from the total work hours.

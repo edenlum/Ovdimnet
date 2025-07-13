@@ -1,0 +1,6 @@
+This document outlines the rules for transforming the CSV customer requirements into the JSON system table configurations.
+
+**General Rules:**
+
+*   The "סוג הסכם" (Agreement Type) from the CSV, which is 501, will be used as the `etype` and `sid` in all relevant JSON files.
+*   The "שם הסכם" (Agreement Name) from the CSV will be used as the `etname` in `wt_employeetypes.json`.

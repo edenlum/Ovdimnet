@@ -1,0 +1,43 @@
+{
+  "name": "ProcessRun",
+  "type": "object",
+  "properties": {
+    "process_id": {
+      "type": "string",
+      "description": "ID of the process being executed"
+    },
+    "input_file_url": {
+      "type": "string",
+      "description": "URL of the input file"
+    },
+    "output_file_url": {
+      "type": "string",
+      "description": "URL of the generated output file"
+    },
+    "output_content": {
+      "type": "string",
+      "description": "Generated content for preview"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "running",
+        "completed",
+        "failed"
+      ],
+      "default": "running",
+      "description": "Status of the process run"
+    },
+    "error_message": {
+      "type": "string",
+      "description": "Error message if the run failed"
+    },
+    "execution_time": {
+      "type": "number",
+      "description": "Time taken to execute in seconds"
+    }
+  },
+  "required": [
+    "process_id"
+  ]
+}
