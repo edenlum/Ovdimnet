@@ -24,5 +24,6 @@ if uploaded_rules_file:
         st.success(f"`rules.txt` successfully saved to `{rules_path}`")
         st.subheader("Content of rules.txt:")
         st.code(rules_content)
+        st.session_state['rules_file_path'] = rules_path # Store path in session state
     except Exception as e:
         st.error(f"Error saving rules.txt: {e}")

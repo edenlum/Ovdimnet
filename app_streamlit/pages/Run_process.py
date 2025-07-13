@@ -54,7 +54,10 @@ if uploaded_files:
 
                 # Define rules file path and output path
                 # Path to the rules file (now managed by Create Process page)
-                rules_path = "/Users/edenlumbroso/personal_projects/Ovdimnet/src/pydantic/rules.txt"
+                if 'rules_file_path' not in st.session_state:
+                    st.error("Rules file not found. Please upload the rules file in the 'Create Process' page first.")
+                    st.stop()
+                rules_path = st.session_state['rules_file_path']
                 output_path = os.path.join(tmpdir, "configs.json")
 
                 # Construct the command to run the script
