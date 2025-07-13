@@ -47,10 +47,26 @@ st.download_button(
     mime="text/plain"
 )
 
-st.subheader("AI-Powered Rule Correction (Coming Soon)")
-st.info("This section will allow you to provide feedback (expected vs. actual output) to automatically update the rules.")
-# Placeholder for AI correction inputs and button
-# expected_output = st.text_area("Expected Output:")
-# actual_output = st.text_area("Actual Output:")
-# if st.button("Correct Rules with AI"):
-#     st.write("AI correction logic will go here.")
+st.subheader("AI-Powered Rule Correction")
+expected_output = st.text_area("Expected Output:", height=150)
+actual_output = st.text_area("Actual Output:", height=150)
+
+if st.button("Correct Rules with AI"):
+    if expected_output and actual_output:
+        try:
+            # Call the AI function to update rules
+            from src.pydantic.main import update_rules_with_feedback
+            updated_rules = update_rules_with_feedback(current_rules_content, expected_output, actual_output)
+            
+            # Save the updated rules back to the file
+            with open(rules_file_path, "w") as f:
+                f.write(updated_rules)
+            st.success("Rules updated successfully with AI feedback!")
+            # Refresh the displayed content
+            current_rules_content = updated_rules
+            st.session_state['rules_file_path'] = rules_file_path # Re-confirm session state
+            st.experimental_rerun() # Rerun to update text area with new content
+        except Exception as e:
+            st.error(f"Error applying AI correction: {e}")
+    else:
+        st.warning("Please provide both Expected Output and Actual Output for AI correction.")

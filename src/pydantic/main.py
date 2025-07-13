@@ -56,6 +56,32 @@ def generate(csv_content, rules_content, jsons):
 
     return result.output
 
+def update_rules_with_feedback(current_rules, expected_output, actual_output):
+    prompt = f"""
+    Given the current transformation rules:
+
+    {current_rules}
+
+    And the following discrepancy:
+    Expected Output:
+    {expected_output}
+
+    Actual Output:
+    {actual_output}
+
+    Please update the transformation rules to ensure that this discrepancy does not occur again.
+    Provide only the updated rules content, no additional text or explanation.
+    """
+
+    agent = Agent(
+        'google-gla:gemini-2.5-flash',
+        system_prompt="You are an expert in modifying transformation rules based on provided feedback. Your goal is to update the rules to resolve discrepancies between expected and actual outputs. Provide only the updated rules content.",
+        output_type=str,
+    )
+
+    result = agent.run_sync(prompt)
+    return result.output
+
 def save_configs(configs, path):
     with open(path, "w") as f:
         json.dump(configs.model_dump(), f, indent=4)
