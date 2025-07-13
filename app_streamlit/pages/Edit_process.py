@@ -55,7 +55,7 @@ if st.button("Correct Rules with AI"):
     if expected_output and actual_output:
         try:
             # Call the AI function to update rules
-            from src.pydantic.main import update_rules_with_feedback
+            from backend.main import update_rules_with_feedback
             updated_rules = update_rules_with_feedback(current_rules_content, expected_output, actual_output)
             
             # Save the updated rules back to the file

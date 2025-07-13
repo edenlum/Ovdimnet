@@ -1,8 +1,8 @@
 import streamlit as st
-import subprocess
 import os
 import tempfile
 import json
+from src.pydantic.main import generate
 
 st.set_page_config(layout="centered", page_title="Ovdimnet File Processor")
 st.title("Ovdimnet File Processor")
@@ -61,24 +61,42 @@ if uploaded_files:
                 output_path = os.path.join(tmpdir, "configs.json")
 
                 # Construct the command to run the script
-                import sys
-                command = [
-                    sys.executable,
-                    '-m',
-                    'src.pydantic.main',
-                    '--csv-file',
-                    req_csv_path,
-                    '--rules-file',
-                    rules_path,
-                    '--inputs-dir',
-                    inputs_dir,
-                    '--output-file',
-                    output_path
-                ]
+                # import sys
+                # command = [
+                #     sys.executable,
+                #     '-m',
+                #     'app_streamlit.backend.main',
+                #     '--csv-file',
+                #     req_csv_path,
+                #     '--rules-file',
+                #     rules_path,
+                #     '--inputs-dir',
+                #     inputs_dir,
+                #     '--output-file',
+                #     output_path
+                # ]
 
                 try:
                     st.info("Processing files...")
-                    result = subprocess.run(command, check=True, capture_output=True, text=True)
+                    # Read contents of files
+                    with open(req_csv_path, "r") as f:
+                        csv_content = f.read()
+                    with open(rules_path, "r") as f:
+                        rules_content = f.read()
+                    
+                    jsons = {}
+                    for file_name in os.listdir(inputs_dir):
+                        if file_name.endswith(".json"):
+                            with open(os.path.join(inputs_dir, file_name), "r") as f:
+                                jsons[file_name] = json.load(f)
+
+                    # Call the generate function directly
+                    configs = generate(csv_content, rules_content, jsons)
+                    
+                    # Save the generated configs
+                    with open(output_path, "w") as f:
+                        json.dump(configs.model_dump(), f, indent=4)
+
                     st.success("Processing complete!")
 
                     # Display and allow download of the output

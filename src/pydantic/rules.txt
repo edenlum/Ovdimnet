@@ -2,5 +2,27 @@ This document outlines the rules for transforming the CSV customer requirements 
 
 **General Rules:**
 
-*   The "סוג הסכם" (Agreement Type) from the CSV, which is 501, will be used as the `etype` and `sid` in all relevant JSON files.
-*   The "שם הסכם" (Agreement Name) from the CSV will be used as the `etname` in `wt_employeetypes.json`.
+*   The "סוג הסכם" (Agreement Type) from the CSV, which is 501, will be used as the `etype` in all relevant JSON files.
+
+**wt_employeetypes.json Specific Rules:**
+
+*   The "מספר הסכם" (Agreement Number) from the CSV will be used as the base for `sid`, multiplied by 1000. For example, if "מספר הסכם" is 491, `sid` will be 491000.
+*   The "שם הסכם" (Agreement Name) from the CSV will be used as the `etname`.
+*   `std_hours_day`: Map to "שעות יום תקן" (Standard Daily Hours) from the CSV. If the CSV field is empty or not applicable, set to `null`.
+*   `std_hours_month`: Map to "שעות חודש תקן" (Standard Monthly Hours) from the CSV. If the CSV field is empty or not applicable, set to `null`.
+*   `std_hours_week`: Map to "שעות שבוע תקן" (Standard Weekly Hours) from the CSV. If the CSV field is empty or not applicable, set to `null`.
+*   `sun`, `mon`, `tue`, `wed`, `thu`, `fri`, `sat`: Set to `true` if the corresponding day name (e.g., "שישי" for Friday) is present in the "ימי עבודה" (Work Days) field in the CSV, otherwise `false`.
+*   `workday_start_time`: Map to "שעת התחלה יום עבודה" (Work Day Start Time) from the CSV, formatted as "HH:MM:SS".
+*   `percentage_job`: Map to "אחוז משרה" (Job Percentage) from the CSV. If the CSV field is empty or not applicable, set to `null`.
+*   `tsa_cols_p`: Set to `false`.
+*   `tsa_table`: Set to `false`.
+*   `hours_to_days_rate`: Derived from "שעות יום תקן" (Standard Daily Hours) from the CSV. If "שעות יום תקן" is available, convert it to seconds (multiply by 3600). If "שעות יום תקן" is empty or `null`, set to `28800`.
+*   `diff_ppid`: Map to "פפיד הפרש" (Difference PPID) from the CSV. If the CSV field is empty or not applicable, set to `null`.
+*   `cut_by_pp_ppid`: Map to "פפיד קיזוז" (Cut By PPID) from the CSV. If the CSV field is empty or not applicable, set to `null`.
+*   `need_app_rej_on_manual`: Set to `true`.
+*   `display_diff`: Set to `false`.
+*   `calc_3month_std_by_actual_days`: Set to `false`.
+*   `calc_3month_std_by_all_std_days`: Set to `false`.
+*   `allowed_delay_minutes`: Set to `0`.
+*   `display_day_wo_reporting`: Set to `false`.
+*   `hourly_agreement`: Set to `false`.

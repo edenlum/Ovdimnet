@@ -75,7 +75,9 @@ def update_rules_with_feedback(current_rules, expected_output, actual_output):
 
     agent = Agent(
         'google-gla:gemini-2.5-flash',
-        system_prompt="You are an expert in modifying transformation rules based on provided feedback. Your goal is to update the rules to resolve discrepancies between expected and actual outputs. Provide only the updated rules content.",
+        system_prompt="You are an expert in modifying transformation rules based on provided feedback. \
+        Your goal is to update the rules to resolve discrepancies between expected and actual outputs. \
+        Provide only the updated rules content.",
         output_type=str,
     )
 
