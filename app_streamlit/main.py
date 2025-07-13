@@ -57,8 +57,9 @@ if uploaded_files:
                 output_path = os.path.join(tmpdir, "configs.json")
 
                 # Construct the command to run the script
+                import sys
                 command = [
-                    'python',
+                    sys.executable,
                     '-m',
                     'src.pydantic.main',
                     '--csv-file',
