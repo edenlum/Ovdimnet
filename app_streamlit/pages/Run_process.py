@@ -53,6 +53,7 @@ if uploaded_files:
                         f.write(json_file.getbuffer())
 
                 # Define rules file path and output path
+                # Path to the rules file (now managed by Create Process page)
                 rules_path = "/Users/edenlumbroso/personal_projects/Ovdimnet/src/pydantic/rules.txt"
                 output_path = os.path.join(tmpdir, "configs.json")
 
