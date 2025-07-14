@@ -29,7 +29,6 @@ def get_prompt(csv_content, rules_content, jsons):
     - wt_employeetypes
     - wt_et_cols_display
     - wt_et_dt
-    - wt_et_pcols
     """
 
     return prompt

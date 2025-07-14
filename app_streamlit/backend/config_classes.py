@@ -192,4 +192,4 @@ class Configs(BaseModel):
     wt_employeetypes: WtEmployeeTypes
     wt_et_cols_display: List[WtEtColDisplay]
     wt_et_dt: List[WtEtDtItem]
-    wt_et_pcols: List[WtEtPcol]
+    # wt_et_pcols: List[WtEtPcol]
