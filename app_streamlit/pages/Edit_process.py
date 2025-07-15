@@ -65,7 +65,7 @@ if st.button("Correct Rules with AI"):
             # Refresh the displayed content
             current_rules_content = updated_rules
             st.session_state['rules_file_path'] = rules_file_path # Re-confirm session state
-            st.experimental_rerun() # Rerun to update text area with new content
+            st.rerun() # Rerun to update text area with new content
         except Exception as e:
             st.error(f"Error applying AI correction: {e}")
     else:

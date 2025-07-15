@@ -51,7 +51,7 @@ def generate(csv_content, rules_content, jsons):
         output_type=Configs,
     )
 
-    result = agent.run_sync(prompt)  
+    result = agent.run_sync(prompt)
 
     return result.output
 
