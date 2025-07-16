@@ -74,7 +74,7 @@ if uploaded_files:
 
                         st.download_button(
                             label="Download configs.json",
-                            data=json.dumps(output_json, indent=4),
+                            data=json.dumps(output_json, indent=4, ensure_ascii=False),
                             file_name="configs.json",
                             mime="application/json"
                         )
