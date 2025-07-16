@@ -28,7 +28,7 @@ if uploaded_files:
         json_files = []
 
         for uploaded_file in uploaded_files:
-            if uploaded_file.name.lower().endswith('.csv') and "requirements" in uploaded_file.name.lower():
+            if uploaded_file.name.lower().endswith('.csv'):
                 requirements_csv = uploaded_file
             elif uploaded_file.name.lower().endswith('.json'):
                 json_files.append(uploaded_file)
